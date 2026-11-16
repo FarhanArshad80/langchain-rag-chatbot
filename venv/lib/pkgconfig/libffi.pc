@@ -1,0 +1,11 @@
+prefix=/home/nouman15926/projects/Music/RAG-langchain/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/nouman15926/projects/Music/RAG-langchain/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.8
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/home/nouman15926/projects/Music/RAG-langchain/venv
+exec_prefix=/home/nouman15926/projects/Music/RAG-langchain/venv
+libdir=/home/nouman15926/projects/Music/RAG-langchain/venv/lib
+includedir=/home/nouman15926/projects/Music/RAG-langchain/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

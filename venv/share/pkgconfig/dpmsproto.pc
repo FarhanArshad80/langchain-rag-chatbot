@@ -1,0 +1,7 @@
+prefix=/home/nouman15926/projects/Music/RAG-langchain/venv
+includedir=${prefix}/include
+
+Name: DPMSProto
+Description: DPMS extension headers
+Version: 1.2
+Cflags: -I${includedir}
